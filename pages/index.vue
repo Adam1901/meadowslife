@@ -1,33 +1,41 @@
 <template>
-  <div class="container">
+  <div class="">
     <div>
-      <Logo/>
-      <h1 class="title">
-        MeadowsLife
-      </h1>
-<!--      <parallax>-->
-<!--        <img src="static/lockup.png" alt="very cool bg">-->
-<!--      </parallax>-->
-      test
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <no-ssr>
+<!--        https://github.com/apertureless/vue-parallax/issues/10-->
+        <parallax :speedFactor="speedFactorSpeed">
+          <img src="/brighton.jpg" alt="very cool bg">
+        </parallax>
+
+        <div style="position: relative;">
+          <parallax :speedFactor="speedFactorSpeed" :fixed="false">
+            <img src="/engadgement.jpg" alt="very cool bg">
+          </parallax>
+        </div>
+        <parallax :speedFactor="speedFactorSpeed">
+          <img src="/leggies.jpg" alt="very cool bg">
+        </parallax>
+
+        <parallax :speedFactor="speedFactorSpeed">
+          <img src="/prague.jpg" alt="very cool bg">
+        </parallax>
+
+        <parallax :speedFactor="speedFactorSpeed">
+          <img src="/poser.jpg" alt="very cool bg">
+        </parallax>
+
+        <!--      <parallax :speedFactor="{speedFactor}">-->
+        <!--        <img src="/ballet.jpg" alt="very cool bg">-->
+        <!--      </parallax>-->
+
+        <!--      <parallax :speedFactor="{speedFactor}">-->
+        <!--        <img src="/kitty.jpg" alt="very cool bg">-->
+        <!--      </parallax>-->
+      </no-ssr>
+
     </div>
+    test
+
   </div>
 </template>
 
@@ -37,7 +45,12 @@
   export default {
     components: {
       Parallax
-    }
+    },
+    data: function () {
+      return {
+        speedFactorSpeed: 0.01
+      }
+    },
   }
 </script>
 
