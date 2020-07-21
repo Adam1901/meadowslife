@@ -1,14 +1,20 @@
 <template>
-  <div class="">
+  <div class="app">
     <div>
       <no-ssr>
-<!--        https://github.com/apertureless/vue-parallax/issues/10-->
-        <parallax :speedFactor="speedFactorSpeed">
-          <img src="/brighton.jpg" alt="very cool bg">
-        </parallax>
+        <!--        https://github.com/apertureless/vue-parallax/issues/10-->
+        <div style="position: relative; z-index: 9999; background-color: #fff;">
+          <h1 style="margin:0;">Meadows March 2020</h1>
+          <parallax :speedFactor="speedFactorSpeed">
+            <img src="/brighton.jpg" alt="very cool bg">
+          </parallax>
+        </div>
+
+        <div style="background-color: #fff; height: 100vh;"></div>
+        <h1>Test</h1>
 
         <div style="position: relative;">
-          <parallax :speedFactor="speedFactorSpeed" :fixed="false">
+          <parallax :speedFactor="speedFactorSpeed" :fixed="true">
             <img src="/engadgement.jpg" alt="very cool bg">
           </parallax>
         </div>
@@ -55,41 +61,16 @@
 </script>
 
 <style>
-  .container {
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  body {
+    margin: 0;
+  }
+
+  .app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     text-align: center;
-  }
-
-  .title {
-    font-family: 'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-    display: block;
-    font-weight: 300;
-    font-size: 100px;
-    color: #35495e;
-    letter-spacing: 1px;
-  }
-
-  .subtitle {
-    font-weight: 300;
-    font-size: 42px;
-    color: #526488;
-    word-spacing: 5px;
-    padding-bottom: 15px;
-  }
-
-  .links {
-    padding-top: 15px;
+    color: #2c3e50;
+    position: relative;
   }
 </style>
