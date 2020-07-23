@@ -4,7 +4,8 @@
       <no-ssr>
         <!--        https://github.com/apertureless/vue-parallax/issues/10-->
         <div style="position: relative; z-index: 9999; background-color: #fff;">
-          <h1 style="margin:0;">Meadows March 2020</h1>
+          <h1 style="margin:0;">Meadows Wedding</h1>
+          <h2 style="margin:0;">March 2020</h2>
           <parallax :speedFactor="speedFactorSpeed">
             <img src="/brighton.jpg" alt="very cool bg">
           </parallax>
