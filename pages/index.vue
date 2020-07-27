@@ -11,8 +11,11 @@
           </parallax>
         </div>
 
-        <div style="background-color: #fff; height: 50vh;">
-          <h1>Blank body</h1>
+        <div style="background-color: #fff; height: 25vh;">
+          <h1>Story so far</h1>
+          <h2>Engaged - 22<small>nd</small> March 2020</h2>
+          <h2>Together - 22<small>nd</small> Semptember 2019</h2>
+          <h2>Met - 22<small>nd</small> August 2019</h2>
         </div>
 
         <div style="position: relative;">
@@ -74,12 +77,15 @@
 </script>
 
 <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
   body {
     margin: 0;
   }
 
   .app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
