@@ -13,9 +13,11 @@
 
         <div style="background-color: #fff; height: 25vh;">
           <h1>Story so far</h1>
-          <h2>Engaged - 22<small>nd</small> March 2020</h2>
-          <h2>Together - 22<small>nd</small> Semptember 2019</h2>
+
           <h2>Met - 22<small>nd</small> August 2019</h2>
+          
+          <h2>Together - 22<small>nd</small> Semptember 2019</h2>
+          <h2>Engaged - 22<small>nd</small> March 2020</h2>
         </div>
 
         <div style="position: relative;">
