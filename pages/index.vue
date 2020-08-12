@@ -56,7 +56,7 @@
       </no-ssr>
 
     </div>
-    test
+    Loading
 
   </div>
 </template>
