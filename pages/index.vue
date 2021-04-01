@@ -16,7 +16,7 @@
 
           <h2>Met - 22<small>nd</small> August 2019</h2>
 
-          <h2>Together - 22<small>nd</small> Semptember 2019</h2>
+          <h2>Together - 22<small>nd</small> September 2019</h2>
           <h2>Engaged - 22<small>nd</small> March 2020</h2>
         </div>
 
