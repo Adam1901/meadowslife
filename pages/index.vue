@@ -11,12 +11,12 @@
           </parallax>
         </div>
 
-        <div style="background-color: #fff; height: 25vh;">
+        <div style="background-color: #fff; height: 20vh;">
           <h1>Story so far</h1>
 
           <h2>Met - 22<small>nd</small> August 2019</h2>
-          
-          <h2>Together - 22<small>nd</small> Semptember 2019</h2>
+
+          <h2>Together - 22<small>nd</small> September 2019</h2>
           <h2>Engaged - 22<small>nd</small> March 2020</h2>
         </div>
 
@@ -25,16 +25,16 @@
             <img src="/engadgement.jpg" alt="very cool bg">
           </parallax>
         </div>
-        
+
         <div style="position: relative; z-index: 9999; background-color: #fff;">
           <parallax :speedFactor="speedFactorSpeed">
             <img src="/leggies.jpg" alt="very cool bg">
           </parallax>
         </div>
-        
-        
-        <div style="background-color: #fff; height: 50vh;">
-          <h1>Blank body</h1>
+
+
+        <div style="background-color: #fff; height: 5vh;">
+          <countdown/>
         </div>
 
         <div style="position: relative;">
@@ -65,9 +65,11 @@
 
 <script>
   import Parallax from 'vue-parallaxy'
+  import Countdown from "../components/countdown";
 
   export default {
     components: {
+      Countdown,
       Parallax
     },
     data: function () {
