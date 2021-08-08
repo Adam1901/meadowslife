@@ -53,7 +53,6 @@ export default {
   build: {},
 
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: false,
       themes: {
