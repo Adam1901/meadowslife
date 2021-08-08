@@ -13,5 +13,8 @@
     "nuxt": "^2.13.0",
     "vue-parallaxy": "^1.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.1",
+    "vuetify": "^2.5.8"
+  }
 }
